@@ -9,6 +9,8 @@ import org.springframework.jms.support.converter.MessageType;
 @Configuration
 public class JmsConfig {
 
+    public static final String MY_QUEUE_NAME = "my_queue";
+
     /**
      * Bean -> message converter
      * Using Jackson libraries to convert message to JSON
