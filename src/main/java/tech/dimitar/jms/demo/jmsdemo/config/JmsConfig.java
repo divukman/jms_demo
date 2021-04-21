@@ -10,6 +10,7 @@ import org.springframework.jms.support.converter.MessageType;
 public class JmsConfig {
 
     public static final String MY_QUEUE_NAME = "my_queue";
+    public static final String SND_RCV_QUEUE= "reply_back_to_me";
 
     /**
      * Bean -> message converter
