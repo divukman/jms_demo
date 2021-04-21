@@ -18,7 +18,7 @@ import java.util.UUID;
 
 @Slf4j
 @RequiredArgsConstructor
-@Component
+//@Component
 public class HelloMessageListener {
 
     private final JmsTemplate jmsTemplate;
